@@ -6,10 +6,10 @@ This YASnippets is extended by SML# words.
 
 # Installation
 
-Add below code to your `init.el`.
+Clone this repository to your yasnippet directory with named sml-mode.
 
-```
-(setq yas/root-directory "path/of/yasnippet-sml-mode")
+```bash
+git clone git@github.com:yonta/yasnippet-sml-mode.git ~/.emacs.d/snippets/sml-mode
 ```
 
 # License
