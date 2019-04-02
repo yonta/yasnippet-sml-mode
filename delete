@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: delete #x.l where ...
+# key: delete
+# --
+delete #${2:id}.${3:label}${5: where ${6:exp}}$0

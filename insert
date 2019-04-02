@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: insert into #x.l (...) values ...
+# key: insert
+# --
+insert into #${2:id}.${3:label}${4: (${5:labels})} values (${6:exps})$0

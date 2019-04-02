@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: update #x.l set (...) = (...) from ... where ...
+# key: update
+# --
+update #${2:id}.${3:label} set (${5:labels}) = (${6:exps})${7: from ${8:exp}}${9: where ${10:exp}}$0
